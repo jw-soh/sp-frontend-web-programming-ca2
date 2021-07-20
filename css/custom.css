@@ -5,12 +5,23 @@
   --theme-color: #bd6800;
 }
 
-nav > button.btn {
+.navbar-buttons > button.btn {
   border: 2px solid var(--theme-color);
   color: var(--theme-color);
 }
 
-nav > button.navbar-toggler {
+.navbar-buttons > button.navbar-toggler {
   border-color: var(--theme-color);
   background-color: var(--theme-color);
+}
+
+.nav-link:hover {
+  /* Something is preventing the override when !important is not used */
+  color: var(--theme-color)!important;
+}
+
+@media (min-width: 991.98px) { 
+  .navbar-buttons > button.btn {
+    display: none;
+  }  
 }
