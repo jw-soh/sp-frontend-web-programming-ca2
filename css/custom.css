@@ -1,0 +1,16 @@
+/* This CSS file is created with a purpose to override the Bootstrap
+   styles where applicable. */
+
+:root {
+  --theme-color: #bd6800;
+}
+
+nav > button.btn {
+  border: 2px solid var(--theme-color);
+  color: var(--theme-color);
+}
+
+nav > button.navbar-toggler {
+  border-color: var(--theme-color);
+  background-color: var(--theme-color);
+}
