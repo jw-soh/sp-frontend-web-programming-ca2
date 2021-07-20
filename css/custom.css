@@ -5,6 +5,11 @@
   --theme-color: #bd6800;
 }
 
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .navbar-buttons > button.btn {
   border: 2px solid var(--theme-color);
   color: var(--theme-color);
@@ -13,6 +18,14 @@
 .navbar-buttons > button.navbar-toggler {
   border-color: var(--theme-color);
   background-color: var(--theme-color);
+}
+
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  margin: 0!important;
 }
 
 .nav-link:hover {
