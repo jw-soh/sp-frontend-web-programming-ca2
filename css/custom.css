@@ -11,7 +11,7 @@ body {
   padding: 5px;
 }
 
-body > * {
+body>* {
   padding: 0;
 }
 
@@ -23,12 +23,12 @@ body > * {
   display: flex;
 }
 
-.navbar-buttons > button.btn {
+.navbar-buttons>button.btn {
   border: 2px solid var(--theme-color);
   color: var(--theme-color);
 }
 
-.navbar-buttons > button.navbar-toggler {
+.navbar-buttons>button.navbar-toggler {
   margin-left: 5px;
   color: #fff;
   background-color: var(--theme-color);
@@ -39,22 +39,45 @@ body > * {
 }
 
 .navbar-nav {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 .nav-link:hover {
   /* Something is preventing the override when !important is not used */
-  color: var(--theme-color)!important;
+  color: var(--theme-color) !important;
 }
 
-@media (min-width: 991.98px) { 
-  .navbar-buttons > button.btn {
+@media (min-width: 991.98px) {
+  .navbar-buttons>button.btn {
     display: none;
-  }  
+  }
 }
 
 .fab {
   color: var(--theme-color);
   font-size: 40px;
   padding: 0 5px;
+}
+
+form,
+.form-group,
+form > button {
+  border: 5px solid var(--theme-color)!important;
+}
+
+.form-group {
+  margin: 0;
+}
+
+form select {
+  width: 100%;
+  border: 0;
+  color: var(--theme-color);
+}
+
+form > button {
+  width: 100%;
+  color: var(--theme-color)!important;
+  border-radius: 0!important;
+  font-weight: bold!important;
 }
