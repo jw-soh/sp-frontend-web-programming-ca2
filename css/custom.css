@@ -10,13 +10,22 @@ body {
   margin: 0 auto;
 }
 
+.navbar {
+  padding: 5px;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
 .navbar-buttons > button.btn {
   border: 2px solid var(--theme-color);
   color: var(--theme-color);
 }
 
 .navbar-buttons > button.navbar-toggler {
-  border-color: var(--theme-color);
+  margin-left: 5px;
+  color: #fff;
   background-color: var(--theme-color);
 }
 
@@ -37,4 +46,10 @@ body {
   .navbar-buttons > button.btn {
     display: none;
   }  
+}
+
+.fab {
+  color: var(--theme-color);
+  font-size: 40px;
+  padding: 0 5px;
 }
