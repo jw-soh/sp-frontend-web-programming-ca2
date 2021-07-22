@@ -51,6 +51,11 @@ body>* {
   .navbar-buttons>button.btn {
     display: none;
   }
+
+  .movie-booking-form {
+    display: flex;
+    border: 0!important;
+  }
 }
 
 .fab {
