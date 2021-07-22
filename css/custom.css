@@ -69,7 +69,7 @@ form select {
 }
 
 form > button {
-  width: 100%;
+  /* width: 100%; */
   color: var(--theme-color)           !important;
   border-radius: 0                    !important;
   font-weight: bold                   !important;
@@ -88,5 +88,35 @@ form > button {
   .movie-booking-form {
     display: flex;
     border: 0;
+    justify-content: space-between;
+  }
+
+  .form-group {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 26px;
+  }
+
+  #select-movie-btn {
+    flex-grow: 3;
+  }
+
+  #select-cinema-btn {
+    flex-grow: 2;
+  }
+
+  #select-day-btn {
+    flex-grow: 1;
+  }
+
+  #select-time-btn {
+    flex-grow: 1;
+  }
+
+  .movie-booking-form > button {
+    padding: 0 20px;
+    height: 26px;
+    border-width: 1px!important;
+    border-radius: 5px!important;
   }
 }
