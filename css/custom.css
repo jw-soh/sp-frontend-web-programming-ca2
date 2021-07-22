@@ -47,17 +47,6 @@ body>* {
   color: var(--theme-color) !important;
 }
 
-@media (min-width: 991.98px) {
-  .navbar-buttons>button.btn {
-    display: none;
-  }
-
-  .movie-booking-form {
-    display: flex;
-    border: 0!important;
-  }
-}
-
 .fab {
   color: var(--theme-color);
   font-size: 40px;
@@ -65,9 +54,8 @@ body>* {
 }
 
 form,
-.form-group,
-form > button {
-  border: 5px solid var(--theme-color)!important;
+.form-group {
+  border: 5px solid var(--theme-color);
 }
 
 .form-group {
@@ -82,11 +70,23 @@ form select {
 
 form > button {
   width: 100%;
-  color: var(--theme-color)!important;
-  border-radius: 0!important;
-  font-weight: bold!important;
+  color: var(--theme-color)           !important;
+  border-radius: 0                    !important;
+  font-weight: bold                   !important;
+  border: 5px solid var(--theme-color)!important;
 }
 
 .disappear {
   display: none;
+}
+
+@media (min-width: 991.98px) {
+  .navbar-buttons>button.btn {
+    display: none;
+  }
+
+  .movie-booking-form {
+    display: flex;
+    border: 0;
+  }
 }

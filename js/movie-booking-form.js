@@ -5,10 +5,4 @@ window.onload = () => {
   movieBookingButton.addEventListener('click', () => {
     movieBookingForm.classList.toggle('disappear');
   })
-
-  window.addEventListener('resize', () => {
-    if (window.innerWidth >= 922) {
-      // console.log('hi');
-    }
-  });
 };
