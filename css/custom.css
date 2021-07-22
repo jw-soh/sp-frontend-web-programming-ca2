@@ -81,3 +81,7 @@ form > button {
   border-radius: 0!important;
   font-weight: bold!important;
 }
+
+.disappear {
+  display: none;
+}
