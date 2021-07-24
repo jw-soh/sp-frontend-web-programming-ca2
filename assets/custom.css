@@ -83,6 +83,20 @@ aside {
   margin: 20px 0;
 }
 
+.advertisements {
+  margin: 0;
+  max-width: 100%;
+}
+
+.advertisements .advertisement {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.advertisements img {
+  width: 100%;
+}
+
 .disappear {
   display: none;
 }
